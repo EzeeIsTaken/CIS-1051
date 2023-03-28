@@ -1,0 +1,28 @@
+import turtle
+bob = turtle.Turtle()
+bob.speed(0)
+bob.pensize(2)
+bob.shape("turtle")
+
+bob.fd(50)
+bob.backward(25)
+bob.right(90)
+bob.fd(75)
+bob.right(90)
+bob.fd(30)
+bob.right(90)
+bob.fd(15)
+
+bob1 = turtle.Turtle()
+bob1.speed(0)
+bob1.pensize(2)
+bob1.shape("turtle")
+
+bob1.penup()
+bob1.fd(150)
+bob1.pendown()
+bob1.backward(50)
+bob1.right(90)
+bob1.fd(75)
+bob1.left(90)
+bob1.fd(50)
