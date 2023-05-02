@@ -2,7 +2,7 @@
 Pokedex - The Temple University Reigion
 
 ## Steps to run the program
-1. python3 -m pip install RateMyProfessorAP
+1. python3 -m pip install RateMyProfessorAPI
 2. pip install -U Flask
 3. pip3 install -U flask_cors
 4. run app.py to start the local server with flask
