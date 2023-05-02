@@ -12,7 +12,7 @@ Pokedex - The Temple University Reigion
 *Note that first 5 pictures on the website are examples and the search bar allows you to type in anyone from Temple's Rate my Prof database
 
 ## Demo
-link to video - blank
+Link to video - https://www.youtube.com/watch?v=IfLFtKsxHxQ&ab
 
 ## Challanges Faced - With Soulutions
 Going into this project we had no experience with API's, HTML, or CSS. 
