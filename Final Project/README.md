@@ -8,6 +8,7 @@ Pokedex - The Temple University Reigion
 4. run app.py to start the local server with flask
 5. run the HTML page
 6. interact with the page and it will call the get command in the file to pull information from the Rate my professor API
+
 <br>*Note that you need python 3.5 or higher
 <br>*Note that first 5 pictures on the website are examples and the search bar allows you to type in anyone from Temple's Rate my Prof database
 
