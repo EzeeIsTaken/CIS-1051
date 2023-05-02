@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    text-align: center;
+    color: #FF0000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-shadow: 2px 2px 5px #888888;
+    transition: all 0.3s ease-in-out;
+}
+li:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 10px #888888;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}

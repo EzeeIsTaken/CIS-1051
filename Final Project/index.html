@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokedex</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<h1>Pokedex - Temple University Region</h1>
+	
+<!-- Prompts User to enter full name into search bar -->
+
+
+	<label for="fullName">Enter the full name of the teacher you wish to see:</label>
+	<input type="text" id="fullName">
+
+	<button onclick="search()">Search</button>
+
+<!-- Search bar -->
+
+	<script>
+  		function search() {
+    		var fullName = document.getElementById("fullName").value;
+    		var searchBar = "http://localhost:8000/pokeProfessor?name=%22" + fullName.replace(" ", "%20") + "%22";
+    		window.location.href = searchBar;
+  		}
+	</script>
+
+<!-- These are the examples on the page -->
+
+	<ul>
+		<div>
+			<a href="http://localhost:8000/pokeProfessor?name=%22Andrew%20Rosen%22"><img src="https://cis.temple.edu/assets/img/people/8ed26f93e9846048112b8f4896fc29d8.jpg" style="width:200px;height:200px;" alt="Andrew Rosen"></a>
+			<h2>Andrew Rosen</h2>
+			<p>CIS</p>
+		</div>
+		<div>
+			<a href="http://localhost:8000/pokeProfessor?name=%22Alex%20Pang%22"><img src="https://cdn.discordapp.com/attachments/1014903136755929179/1099861259282808842/10e0b0885b72d89ffe8352b29885f7d3.png" style="width:200px;height:200px;" alt="Alex Pang"></a>
+			<h2>Alex Pang</h2>
+			<p>CIS</p>
+		</div>
+		<div>
+			<a href="http://localhost:8000/pokeProfessor?name=%22John%20Fiore%22"><img src="https://cis.temple.edu/assets/img/people/c8cf62d813b2e9a11935fd65b19653d8.jpg" style="width:200px;height:200px;" alt="John Fiore"></a>
+			<h2>John Fiore</h2>
+			<p>CIS</p>
+		</div>
+		<div>
+			<a href="http://localhost:8000/pokeProfessor?name=%22Edward%20Crotty%22"><img src="https://cdn.discordapp.com/attachments/1014903136755929179/1099868174238875769/a7a675fde6724ed117c78ec99c6387cb.png" style="width:200px;height:200px;" alt="Ed Crotty"></a>
+			<h2>Ed Crotty</h2>
+			<p>CIS</p>
+		</div>
+		<div>
+			<a href="http://localhost:8000/pokeProfessor?name=%22Laurie%20Shteir%22"><img src="https://cdn.discordapp.com/attachments/1014903136755929179/1099868527973912667/1a6b5acef0bfb3826c8d38920f7785a8.png" style="width:200px;height:200px;" alt="Laurie Shteir"></a>
+			<h2>Laurie Shteir</h2>
+			<p>CIS</p>
+		</div>
+	</ul>
+</body>
+</html>
